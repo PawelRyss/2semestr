@@ -1,0 +1,29 @@
+.page-header {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background-color: $color1;
+    border-bottom: 1px solid $color3;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        flex-shrink: 0;
+
+        img {
+            display: block;
+        }
+    }
+}
+
+.page-header__search {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .page-header__search {
+        display: block;
+    }
+}

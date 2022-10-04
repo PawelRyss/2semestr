@@ -1,0 +1,38 @@
+.image-square {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    overflow: hidden;
+
+    &.has-border {
+        border: 1px solid $color3;
+    }
+
+    &.is-active {
+        border: 2px solid $color7;
+
+        img {
+            border: 1px solid $color1;
+            border-radius: 100%;
+        }
+    }
+    
+    
+}
+
+.image-square--small {
+    width: 32px;
+    height: 32px;
+}
+
+.image-square--tiny {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
